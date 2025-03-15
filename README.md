@@ -1,6 +1,11 @@
 # Midterm
 ## Katie Piaszynski
 
+## Synopsis   
+Haha get it? It's a movie watchlist app and I used "synopsis" instead of "summary?" ...(please don't take off points 🙂 ).   
+I created a movie watchlist app in which a movie is described with a title, genre, and optional star rating system for once you have watched the movie. The add movie button is at the top of the page, with update and delete buttons appearing after an entry gets logged. Entries are displayed in a table format
+
+
 ### Initializing (Windows)
 To initialize, first create a virtual environment with:    
 > **py -m venv venv**   
@@ -18,12 +23,12 @@ To access your watchlist, utilize uvicorn with:
       
 On app refresh any adjustments to the code will be implemented (assuming you saved it first!).    
 
-### Back End
-main.py, movie.py, and movie_routes.py contain all of the back end coding for this project. main.py initializes the fastapi app. movie.py initializes the classes/variables for the movie(s). This app takes a movie to have a unique ID, a mandatory title (outlined in the front end), a description of the genre, and an optional rating for once you have finished the movie with None being the base. movie_router.py initializes the routes for the front end to use. It also creates the storage list so the inputted movies will be saved.
+### Backend
+main.py, movie.py, and movie_routes.py contain all of the backend coding for this project. main.py initializes the fastapi app. movie.py initializes the classes/variables for the movie(s). This app takes a movie to have a unique ID, a mandatory title (outlined in the front end), a description of the genre, and an optional rating for once you have finished the movie with None being the base. movie_router.py initializes the routes for the frontend to use. It also creates the storage list so the inputted movies will be saved.
           
 
-### Front End
-The front end is made up of a folder entitled "frontend." This folder contains index.html, main.js, style.css, and an icon of a movie camera (favicon.ico). The icon simply stays in the browser tab, representing the movie watchlist tab. index.html contains the code for setting up the Bootstrap buttons/modals for adding and editing movies, and links to the favicon icon, main.js, style.css, the Font Awesome star icon, and Bootstrap (the source for the modals). Also contained is a table for displaying the different movie categories, this gets filled by the JavaScript code. main.js is the JavaScript code for handling adding, updating, deleting, and handling the star rating system. I added plenty of notes within this file for ease of following along, as it is a long one. For related objects, I bordered the code with:       
+### Frontend
+The frontend is made up of a folder entitled "frontend." This folder contains index.html, main.js, style.css, and an icon of a movie camera (favicon.ico). The icon simply stays in the browser tab, representing the movie watchlist tab. index.html contains the code for setting up the Bootstrap buttons/modals for adding and editing movies, and links to the favicon icon, main.js, style.css, the Font Awesome star icon, and Bootstrap (the source for the modals). Also contained is a table for displaying the different movie categories, this gets filled by the JavaScript code. main.js is the JavaScript code for handling adding, updating, deleting, and handling the star rating system. I added plenty of notes within this file for ease of following along, as it is a long one. For related objects, I bordered the code with:       
 > **//...Start**            
 > **//...End**              
 
