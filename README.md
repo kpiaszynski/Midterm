@@ -2,7 +2,6 @@
 ## Katie Piaszynski
 
 ## Synopsis   
-Haha get it? It's a movie watchlist app and I used "synopsis" instead of "summary?" ...(please don't take off points 🙂 ).   
 I created a movie watchlist app in which a movie is described with a title, genre, and optional star rating system for once you have watched the movie. The add movie button is at the top of the page, with update and delete buttons appearing after an entry gets logged. Entries are displayed in a table format
 
 
